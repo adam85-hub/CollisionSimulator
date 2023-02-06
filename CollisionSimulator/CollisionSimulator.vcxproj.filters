@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CollisionSimulator">
+      <UniqueIdentifier>{b05563df-acc9-469b-bd65-874960c7b04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{5dc47d99-0f31-4c62-9229-e51c8355298f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{463e4c17-01be-4cbd-bcab-2cacdaf3c202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{baa08cca-a682-4160-9211-ca8e2a2410b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimulationScreen">
+      <UniqueIdentifier>{99a9689a-fb5b-4628-8030-be538cf328e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSimulator.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Execute.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanUp.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleEvent.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleKeyboardEvents.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>Source Files\CollisionSimulator</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDataScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="EventEmitter.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="SSRender.cpp">
+      <Filter>Source Files\SimulationScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="SSHandleKeyboardEvents.cpp">
+      <Filter>Source Files\SimulationScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="SSCalculateSimulation.cpp">
+      <Filter>Source Files\SimulationScreen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="NotImplementedException.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataModel.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="DataService.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
